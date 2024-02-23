@@ -22,7 +22,7 @@ pipeline {
                 # sudo /home/xixu/miniconda3/condabin/conda run -n aie pytest
 
                 echo 'pytest not runned'
-                exit 1 #comment this line after implementing Jenkinsfile
+                // exit 1 #comment this line after implementing Jenkinsfile
                 '''
 
             }
